@@ -1,18 +1,21 @@
-import Layout from '../components/Layout';
+import Head from 'next/head';
 
-export default function TrafficBuyersPage() {
+export default function TrafficBuyers() {
   return (
-    <div className="max-w-3xl mx-auto px-4 py-20">
-      <h2 className="text-3xl font-bold mb-6">For Traffic Buyers</h2>
-      <p className="text-lg text-gray-300 mb-4">
-        Buy traffic with confidence. Affinitrax brings you exclusive offers, timely deliveries, and battle-tested
-        broker channels.
-      </p>
-      <ul className="list-disc list-inside space-y-2 text-gray-300">
-        <li>Daily lead volumes by niche</li>
-        <li>Geo-specific targeting and smart routing</li>
-        <li>Plug into active broker streams instantly</li>
-      </ul>
-    </div>
+    <>
+      <Head>
+        <title>Affinitrax | Traffic Buyers</title>
+        <meta name="description" content="Affinitrax connects traffic buyers to high-converting offers from top brokers and brands." />
+      </Head>
+      <main className="min-h-screen bg-black text-white p-6">
+        <h1 className="text-3xl font-bold mb-4">For Traffic Buyers</h1>
+        <p className="mb-4">Join a curated ecosystem of traffic professionals. Gain access to exclusive, high-performing campaigns across verticals — all optimized for scale. Our tech-first stack ensures easy integration, fraud control, and unmatched ROI.</p>
+        <ul className="list-disc ml-6 space-y-2">
+          <li>Verified broker campaigns</li>
+          <li>Fraud prevention and smart routing</li>
+          <li>Custom APIs and targeting options</li>
+        </ul>
+      </main>
+    </>
   );
 }

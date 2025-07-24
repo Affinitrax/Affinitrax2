@@ -1,18 +1,21 @@
-import Layout from '../components/Layout';
+import Head from 'next/head';
 
-export default function BrandsPage() {
+export default function Brands() {
   return (
-    <div className="max-w-3xl mx-auto px-4 py-20">
-      <h2 className="text-3xl font-bold mb-6">For Brands</h2>
-      <p className="text-lg text-gray-300 mb-4">
-        Whether you're launching or scaling, Affinitrax helps your brand get seen by the right audiences across
-        performance channels.
-      </p>
-      <ul className="list-disc list-inside space-y-2 text-gray-300">
-        <li>Data-driven targeting across paid and organic funnels</li>
-        <li>Connect with curated brokers & buyers</li>
-        <li>Transparent reporting & campaign optimization</li>
-      </ul>
-    </div>
+    <>
+      <Head>
+        <title>Affinitrax | Brands</title>
+        <meta name="description" content="Affinitrax helps brands access vetted traffic through trusted partners and performance optimization." />
+      </Head>
+      <main className="min-h-screen bg-black text-white p-6">
+        <h1 className="text-3xl font-bold mb-4">For Brands</h1>
+        <p className="mb-4">Looking to scale your offers? We match brands with vetted traffic from high-quality sources. Whether you want lead gen, app installs, or user acquisition — our broker ecosystem and tracking layer ensure efficiency and performance at scale.</p>
+        <ul className="list-disc ml-6 space-y-2">
+          <li>Scalable traffic acquisition</li>
+          <li>Pre-vetted buyers and funnel optimization</li>
+          <li>Full transparency with performance tracking</li>
+        </ul>
+      </main>
+    </>
   );
 }

@@ -1,18 +1,21 @@
-import Layout from '../components/Layout';
+import Head from 'next/head';
 
-export default function BrokersPage() {
+export default function Brokers() {
   return (
-    <div className="max-w-3xl mx-auto px-4 py-20">
-      <h2 className="text-3xl font-bold mb-6">For Brokers</h2>
-      <p className="text-lg text-gray-300 mb-4">
-        Affinitrax enables brokers to scale effortlessly by tapping into vetted traffic pipelines across multiple
-        geos and verticals.
-      </p>
-      <ul className="list-disc list-inside space-y-2 text-gray-300">
-        <li>Access to high-converting traffic in real-time</li>
-        <li>Work with verified buyers and brands</li>
-        <li>Get analytics and conversion insights</li>
-      </ul>
-    </div>
+    <>
+      <Head>
+        <title>Affinitrax | Brokers</title>
+        <meta name="description" content="Affinitrax gives brokers premium access to monetizable traffic from buyers and brands." />
+      </Head>
+      <main className="min-h-screen bg-black text-white p-6">
+        <h1 className="text-3xl font-bold mb-4">For Brokers</h1>
+        <p className="mb-4">We empower trusted brokers with access to premium inventory from verified traffic buyers and high-converting brands. Our private network ensures top-tier offers, competitive payouts, and full transparency — so you always deliver value.</p>
+        <ul className="list-disc ml-6 space-y-2">
+          <li>Instant access to verified campaigns</li>
+          <li>Real-time tracking via GetLinked.io (coming soon)</li>
+          <li>Dedicated support and fast payment cycles</li>
+        </ul>
+      </main>
+    </>
   );
 }

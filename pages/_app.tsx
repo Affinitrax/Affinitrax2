@@ -1,11 +1,6 @@
+import '@/styles/globals.css';
 import type { AppProps } from 'next/app';
-import Layout from '@/components/Layout';
-import '../styles/global.css';
 
-export default function MyApp({ Component, pageProps }: AppProps) {
-  return (
-    <Layout title="Affinitrax - Fueling Tomorrow’s Traffic. Today.">
-      <Component {...pageProps} />
-    </Layout>
-  );
+export default function App({ Component, pageProps }: AppProps) {
+  return <Component {...pageProps} />;
 }
