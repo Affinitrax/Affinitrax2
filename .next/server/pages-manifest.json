@@ -1,7 +1,10 @@
 {
   "/_app": "pages/_app.js",
+  "/brands": "pages/brands.html",
+  "/brokers": "pages/brokers.html",
+  "/": "pages/index.html",
+  "/traffic-buyers": "pages/traffic-buyers.html",
   "/_error": "pages/_error.js",
   "/_document": "pages/_document.js",
-  "/brokers": "pages/brokers.js",
-  "/": "pages/index.js"
+  "/404": "pages/404.html"
 }

@@ -1,36 +1,51 @@
 {
   "polyfillFiles": [
-    "static/chunks/polyfills.js"
+    "static/chunks/polyfills-78c92fac7aa8fdd8.js"
   ],
-  "devFiles": [
-    "static/chunks/react-refresh.js"
-  ],
+  "devFiles": [],
   "ampDevFiles": [],
   "lowPriorityFiles": [
-    "static/development/_buildManifest.js",
-    "static/development/_ssgManifest.js"
+    "static/WXLljhjPd7ttc8Es41qLZ/_buildManifest.js",
+    "static/WXLljhjPd7ttc8Es41qLZ/_ssgManifest.js"
   ],
   "rootMainFiles": [],
   "pages": {
     "/": [
-      "static/chunks/webpack.js",
-      "static/chunks/main.js",
-      "static/chunks/pages/index.js"
+      "static/chunks/webpack-8fa1640cc84ba8fe.js",
+      "static/chunks/framework-305cb810cde7afac.js",
+      "static/chunks/main-26f9f36b33181737.js",
+      "static/chunks/pages/index-6733de73a1d308fd.js"
     ],
     "/_app": [
-      "static/chunks/webpack.js",
-      "static/chunks/main.js",
-      "static/chunks/pages/_app.js"
+      "static/chunks/webpack-8fa1640cc84ba8fe.js",
+      "static/chunks/framework-305cb810cde7afac.js",
+      "static/chunks/main-26f9f36b33181737.js",
+      "static/css/ab6ea3edcb1cff95.css",
+      "static/chunks/pages/_app-ae907860a06fe57a.js"
     ],
     "/_error": [
-      "static/chunks/webpack.js",
-      "static/chunks/main.js",
-      "static/chunks/pages/_error.js"
+      "static/chunks/webpack-8fa1640cc84ba8fe.js",
+      "static/chunks/framework-305cb810cde7afac.js",
+      "static/chunks/main-26f9f36b33181737.js",
+      "static/chunks/pages/_error-54de1933a164a1ff.js"
+    ],
+    "/brands": [
+      "static/chunks/webpack-8fa1640cc84ba8fe.js",
+      "static/chunks/framework-305cb810cde7afac.js",
+      "static/chunks/main-26f9f36b33181737.js",
+      "static/chunks/pages/brands-a927955baf54ce36.js"
     ],
     "/brokers": [
-      "static/chunks/webpack.js",
-      "static/chunks/main.js",
-      "static/chunks/pages/brokers.js"
+      "static/chunks/webpack-8fa1640cc84ba8fe.js",
+      "static/chunks/framework-305cb810cde7afac.js",
+      "static/chunks/main-26f9f36b33181737.js",
+      "static/chunks/pages/brokers-eec518f6f38e2abf.js"
+    ],
+    "/traffic-buyers": [
+      "static/chunks/webpack-8fa1640cc84ba8fe.js",
+      "static/chunks/framework-305cb810cde7afac.js",
+      "static/chunks/main-26f9f36b33181737.js",
+      "static/chunks/pages/traffic-buyers-f7ddbe642bcdb463.js"
     ]
   },
   "ampFirstPages": []
