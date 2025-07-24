@@ -1,10 +1,9 @@
 {
   "/_app": "pages/_app.js",
-  "/brands": "pages/brands.html",
-  "/brokers": "pages/brokers.html",
-  "/": "pages/index.html",
-  "/traffic-buyers": "pages/traffic-buyers.html",
+  "/brokers": "pages/brokers.js",
+  "/brands": "pages/brands.js",
+  "/": "pages/index.js",
+  "/traffic-buyers": "pages/traffic-buyers.js",
   "/_error": "pages/_error.js",
-  "/_document": "pages/_document.js",
-  "/404": "pages/404.html"
+  "/_document": "pages/_document.js"
 }
